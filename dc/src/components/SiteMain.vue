@@ -126,6 +126,7 @@ export default {
     display: flex;
     flex-direction: row;
     ul{
+        list-style: none;
         color:#8f8f90;
         display: flex;
         flex-direction: column;
@@ -136,6 +137,9 @@ export default {
             font-size: 20px;
             padding: 5px 0;
         }
+        li{
+            line-height: 25px
+        };
     }
 }
 .dx{

@@ -29,8 +29,10 @@ export default {
     justify-content: space-between;
     width: 70%;
     margin: auto;
-    padding: 1rem;
-}
+    img{
+        padding: .5rem 0;
+
+    }
 ul{
         list-style: none;
         display:flex;
@@ -40,7 +42,7 @@ ul{
         
 }
 li{
-    height: 63px;
+    height: 79px;
     &:hover{
     border-bottom: #0282f9 5px solid;
     }
@@ -54,4 +56,6 @@ a{
             color: #0282f9;
         }
 }
+}
+
 </style>
