@@ -35,14 +35,23 @@ ul{
         list-style: none;
         display:flex;
         flex-direction: row;
-        margin-top: 2.5rem;
+        margin-top: 2.5rem; 
         
         
+}
+li{
+    height: 63px;
+    &:hover{
+    border-bottom: #0282f9 5px solid;
+    }
 }
 a{
         text-decoration: none;
         padding: 0 1rem ;
         color:black;
         font-weight: bold;
+        &:hover{
+            color: #0282f9;
+        }
 }
 </style>
