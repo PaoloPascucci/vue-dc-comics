@@ -38,6 +38,9 @@
         <li>Games</li>
         <li>Videos</li>
         <li>News</li>
+        <li class="LIF">SHOP</li>
+        <li>Shop DC</li>
+        <li>Shop DC Collectibles</li>
     </ul>
         <ul>
         <li class="LIF">DC</li>
@@ -61,11 +64,6 @@
         <li>DC Universe</li>
         <li>DC Power Visa</li>
     </ul>
-        <ul>
-        <li class="LIF">SHOP</li>
-        <li>Shop DC</li>
-        <li>Shop DC Collectibles</li>
-        </ul>
 </div>
 <div class="dx"></div>
     </section>
@@ -89,7 +87,7 @@ export default {
     }
 }
 .second{
-    background-color: lightseagreen;
+    background-color: #0282f9;
     .container{
         padding: 2.5rem;
         display: flex;
