@@ -23,12 +23,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .row{
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin: auto;
+    padding: 1rem;
 }
 ul{
         list-style: none;
