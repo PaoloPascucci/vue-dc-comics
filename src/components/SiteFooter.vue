@@ -24,7 +24,7 @@ export default {
     display: flex;
     justify-content: space-around;
     background-color:#303030 ;
-    padding: 1.11rem ;
+    padding: 1.63rem ;
     button{
         border: #0282f9 1px solid ;
         background-color: #303030;
