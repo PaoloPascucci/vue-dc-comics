@@ -3,7 +3,7 @@
     <section class="first">
         <div class="container3" >
             <!-- v-for:="game in games" -->
-                <game v-for="game in games" :key="game"
+                <game v-for="game in games" :key="game.id"
                  :image="game.thumb"
                  :title="game.series" />
                  <div class="button">
