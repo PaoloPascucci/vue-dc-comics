@@ -16,6 +16,7 @@
 </template>
 <script>
 export default {
+     name: 'App',
 }
 </script>
 
@@ -37,9 +38,9 @@ export default {
             font-weight: bold;
             color: #0282f9;
         }
-    }
         img{
             padding: 0 1rem;
         }
+    }
 
 </style>
