@@ -1,6 +1,11 @@
 <template>
 <div> 
     <section class="first">
+        <div class="jumbotron">
+            <div class="series">
+                current series
+            </div>
+        </div>
         <div class="container3" >
             <!-- v-for:="game in games" -->
                 <game v-for="game in games" :key="game.id"
@@ -169,8 +174,8 @@ export default {
 .first{
     background-color: black;
     color :white;
-    margin: auto;
-    padding:2.5rem;
+    
+    
 }
 .second{
     background-color: #0282f9;
@@ -234,9 +239,30 @@ export default {
      width: 562px;
      background-repeat: no-repeat;
 }
+    .jumbotron{
+        background-image: url('../assets/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:400px;
+        position: relative;
+        .series{
+            background-color: #0282f9;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            width: 10.5%;
+            padding: 1rem;
+            position :absolute;
+            bottom:-25px;
+            left:90px;
+            text-align:center
+        }
+
+    }
 .container3{
     display:flex;
     flex-wrap:wrap;
+    padding: 2.5rem ;
     .card{
         width: calc(100%/6);
         text-align: center;
